@@ -1,3 +1,3 @@
-Trainic. Romanian training and nutrition app, iOS first, one codebase also serving the web.
+Trainic, in Romanian and iOS first, with the web build served from the same codebase.
 
-Scriptly. The app and the admin console behind it, built as a single product.
+Scriptly, an application and the console that operates it, built and released as one.
