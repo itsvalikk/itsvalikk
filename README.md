@@ -6,10 +6,9 @@
 
 # Vali
 
-Solo founder. Four products, and the same person designs each one, writes the
-client, models the data and cuts the release. Working every stage alone is a
-constraint before it is anything else. It rules out whatever I cannot carry on
-my own, which is why the list below is short on purpose.
+I am a car mechanic. I own the shop and work in it full time. PitStop Garage
+MK is the platform I wrote for that shop. I never studied programming. I build
+all four products below with AI, alongside the shop.
 
 ## Currently building
 
@@ -41,15 +40,17 @@ is written into, the portfolio of what is currently open, and the performance
 read across both.
 Surfaces: Journal, Portfolio, Dashboard. Built with TypeScript.
 
-**PitStop Garage MK.** A workshop platform for a garage and the public site
-that sits in front of it. Built to a brief, delivered, and in the client's
-hands.
+**PitStop Garage MK.** The workshop platform for my own auto service, and the
+public site in front of it.
 Surfaces: Website, Workshop platform. Built with TypeScript.
 
 ## Elsewhere
 
 [mindforge.com](https://mindforge.com) carries the rest of the work and the
 way to reach me.
+
+On Instagram, [@its.valik](https://www.instagram.com/its.valik/) is mine and
+[@mindforgewr](https://www.instagram.com/mindforgewr/) is the software.
 
 <details>
 <summary>How this page is made, and what is public on this account</summary>
