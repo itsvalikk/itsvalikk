@@ -2,8 +2,8 @@
   <title id="story-title">Vali — human in the loop</title>
   <desc id="story-desc">I'm Vali. Mechanic. Entrepreneur. I run a workshop. I build with AI. Claude + Codex help me turn ideas into apps. I steer. I test. I decide. From the garage to Mindforge. The biography types out once in a terminal, then remains fully readable. Reduced-motion preferences show the complete text immediately.</desc>
   <defs>
-    <linearGradient id="story-edge" x2="1" y2="1"><stop stop-color="#4b5844"/><stop offset=".5" stop-color="#263125"/><stop offset="1" stop-color="#3d4c38"/></linearGradient>
-    <radialGradient id="story-glow"><stop stop-color="#94bd80" stop-opacity=".065"/><stop offset="1" stop-color="#94bd80" stop-opacity="0"/></radialGradient>
+    <linearGradient id="story-edge" x2="1" y2="1"><stop stop-color="#343b30"/><stop offset=".5" stop-color="#242824"/><stop offset="1" stop-color="#30382b"/></linearGradient>
+    <radialGradient id="story-glow"><stop stop-color="#94bd80" stop-opacity=".025"/><stop offset="1" stop-color="#94bd80" stop-opacity="0"/></radialGradient>
     <clipPath id="story-clip-1" clipPathUnits="userSpaceOnUse"><rect id="type-clip-1" x="40" y="74" width="554.4" height="36"/></clipPath>
     <clipPath id="story-clip-2" clipPathUnits="userSpaceOnUse"><rect id="type-clip-2" x="40" y="114" width="571.2" height="36"/></clipPath>
     <clipPath id="story-clip-3" clipPathUnits="userSpaceOnUse"><rect id="type-clip-3" x="40" y="154" width="554.4" height="36"/></clipPath>
@@ -55,9 +55,9 @@
       }
     </style>
   </defs>
-  <rect width="780" height="330" rx="14" fill="#0e110f"/>
+  <rect width="780" height="330" rx="14" fill="#050505"/>
   <rect x="1" y="1" width="778" height="328" rx="13" fill="none" stroke="url(#story-edge)" stroke-width="2"/>
-  <path d="M14 1h752a13 13 0 0 1 13 13v35H1V14A13 13 0 0 1 14 1Z" fill="#171d16"/>
+  <path d="M14 1h752a13 13 0 0 1 13 13v35H1V14A13 13 0 0 1 14 1Z" fill="#050505"/>
   <path d="M1 49h778" stroke="#303b2b"/>
   <text x="28" y="32" font-size="18" fill="#b9d997">&gt; whoami</text>
   <text x="752" y="31" text-anchor="end" font-size="12" letter-spacing="1.3" fill="#a8b49b">VALI / HUMAN IN THE LOOP</text>

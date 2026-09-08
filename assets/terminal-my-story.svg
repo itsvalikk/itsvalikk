@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="877" viewBox="0 0 780 877" role="img" aria-labelledby="title desc">
+  <title id="title">cat story.txt — FROM THE GARAGE</title>
+  <desc id="desc">My working day starts in an automotive workshop. I'm a mechanic and an entrepreneur; building software is something I do alongside that work. Discovering AI opened a new door. I began turning ideas into applications, learning as I went and using Claude and Codex to help me build, test and improve them. Mindforge is where that side of my work lives. The workshop is still part of the story. PitStop Garage MK comes directly from it. The other projects let me explore how software can help beyond the garage, too. I bring the problems and the product direction. AI helps me explore and build. The decisions and responsibility stay with me.</desc>
+  <style>
+    text { font-family: Consolas, 'Liberation Mono', monospace; }
+    .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
+    .label { font-size: 21px; letter-spacing: 1px; fill: #b9d99a; }
+    @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
+  </style>
+  <rect width="780" height="877" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="875" rx="11" fill="none" stroke="#283026"/>
+  <path d="M1 52h778" stroke="#283026"/>
+  <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; cat story.txt</text>
+  <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">FROM THE GARAGE</text>
+  <text x="34" y="91" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">My working day starts in an automotive</text>
+  <text x="34" y="129" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">workshop. I'm a mechanic and an</text>
+  <text x="34" y="167" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">entrepreneur; building software is</text>
+  <text x="34" y="205" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">something I do alongside that work.</text>
+  <text x="34" y="264" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Discovering AI opened a new door. I began</text>
+  <text x="34" y="302" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">turning ideas into applications, learning</text>
+  <text x="34" y="340" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">as I went and using Claude and Codex to</text>
+  <text x="34" y="378" class="line" textLength="621.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">help me build, test and improve them.</text>
+  <text x="34" y="416" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">Mindforge is where that side of my work</text>
+  <text x="34" y="454" class="line" textLength="100.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">lives.</text>
+  <text x="34" y="513" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.250s">The workshop is still part of the story.</text>
+  <text x="34" y="551" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.275s">PitStop Garage MK comes directly from it.</text>
+  <text x="34" y="589" class="line" textLength="621.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.300s">The other projects let me explore how</text>
+  <text x="34" y="627" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.325s">software can help beyond the garage, too.</text>
+  <text x="34" y="686" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.350s">I bring the problems and the product</text>
+  <text x="34" y="724" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.375s">direction. AI helps me explore and build.</text>
+  <text x="34" y="762" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.400s">The decisions and responsibility stay with</text>
+  <text x="34" y="800" class="line" textLength="50.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.425s">me.</text>
+  <path d="M34 854h23" stroke="#8ba76d" stroke-width="3"/>
+</svg>

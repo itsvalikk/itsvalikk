@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="699" viewBox="0 0 780 699" role="img" aria-labelledby="title desc">
+  <title id="title">open Eroare Hub — INTERNAL TOOL</title>
+  <desc id="desc">keep an eye on the work A shared dashboard for application errors and status, designed to bring issues that need attention into one place. PURPOSE: Make problems easier to find across projects. BUILT WITH: TypeScript, Hono, Cloudflare Workers and D1. PRIVACY: An internal tool; access addresses and operational data are not shared here.</desc>
+  <style>
+    text { font-family: Consolas, 'Liberation Mono', monospace; }
+    .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
+    .label { font-size: 21px; letter-spacing: 1px; fill: #b9d99a; }
+    @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
+  </style>
+  <rect width="780" height="699" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="697" rx="11" fill="none" stroke="#283026"/>
+  <path d="M1 52h778" stroke="#283026"/>
+  <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open Eroare Hub</text>
+  <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">INTERNAL TOOL</text>
+  <text x="34" y="91" class="line" textLength="386.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">keep an eye on the work</text>
+  <text x="34" y="150" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">A shared dashboard for application errors</text>
+  <text x="34" y="188" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">and status, designed to bring issues that</text>
+  <text x="34" y="226" class="line" textLength="504" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">need attention into one place.</text>
+  <text x="34" y="285" class="label">PURPOSE</text>
+  <text x="34" y="320" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Make problems easier to find across</text>
+  <text x="34" y="358" class="line" textLength="151.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">projects.</text>
+  <text x="34" y="417" class="label">BUILT WITH</text>
+  <text x="34" y="452" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">TypeScript, Hono, Cloudflare Workers and</text>
+  <text x="34" y="490" class="line" textLength="50.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">D1.</text>
+  <text x="34" y="549" class="label">PRIVACY</text>
+  <text x="34" y="584" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">An internal tool; access addresses and</text>
+  <text x="34" y="622" class="line" textLength="621.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">operational data are not shared here.</text>
+  <path d="M34 676h23" stroke="#8ba76d" stroke-width="3"/>
+</svg>
