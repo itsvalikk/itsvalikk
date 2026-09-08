@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="330" viewBox="0 0 780 330" role="img" aria-labelledby="story-title story-desc">
+  <title id="story-title">Vali — human in the loop</title>
+  <desc id="story-desc">I'm Vali. Mechanic. Entrepreneur. I run a workshop. I build with AI. Claude + Codex help me turn ideas into apps. I steer. I test. I decide. From the garage to Mindforge. The biography types out once in a terminal, then remains fully readable. Reduced-motion preferences show the complete text immediately.</desc>
+  <defs>
+    <linearGradient id="story-edge" x2="1" y2="1"><stop stop-color="#4b5844"/><stop offset=".5" stop-color="#263125"/><stop offset="1" stop-color="#3d4c38"/></linearGradient>
+    <radialGradient id="story-glow"><stop stop-color="#94bd80" stop-opacity=".065"/><stop offset="1" stop-color="#94bd80" stop-opacity="0"/></radialGradient>
+    <clipPath id="story-clip-1" clipPathUnits="userSpaceOnUse"><rect id="type-clip-1" x="40" y="74" width="554.4" height="36"/></clipPath>
+    <clipPath id="story-clip-2" clipPathUnits="userSpaceOnUse"><rect id="type-clip-2" x="40" y="114" width="571.2" height="36"/></clipPath>
+    <clipPath id="story-clip-3" clipPathUnits="userSpaceOnUse"><rect id="type-clip-3" x="40" y="154" width="554.4" height="36"/></clipPath>
+    <clipPath id="story-clip-4" clipPathUnits="userSpaceOnUse"><rect id="type-clip-4" x="40" y="194" width="621.6" height="36"/></clipPath>
+    <clipPath id="story-clip-5" clipPathUnits="userSpaceOnUse"><rect id="type-clip-5" x="40" y="234" width="487.2" height="36"/></clipPath>
+    <style>
+      text { font-family: Consolas, 'Liberation Mono', monospace; }
+      .story-line { font-size: 28px; fill: #e8edda; }
+      #story-line-2,#story-line-3 { fill: #c1cdb7; }
+      #story-line-5 { fill: #bddb9f; }
+      #type-clip-1 { animation: type-1 1.25s steps(33,end) .4s both; }
+      #type-clip-2 { animation: type-2 1.5s steps(34,end) 1.9s both; }
+      #type-clip-3 { animation: type-1 1.25s steps(33,end) 3.65s both; }
+      #type-clip-4 { animation: type-4 1.5s steps(37,end) 5.15s both; }
+      #type-clip-5 { animation: type-5 1.1s steps(29,end) 6.9s both; }
+      @keyframes type-1 { from { width: 0; } to { width: 554.4px; } }
+      @keyframes type-2 { from { width: 0; } to { width: 571.2px; } }
+      @keyframes type-4 { from { width: 0; } to { width: 621.6px; } }
+      @keyframes type-5 { from { width: 0; } to { width: 487.2px; } }
+      .story-caret { opacity: 0; fill: #b8da91; }
+      #story-caret-1 { animation: caret-1 8s steps(1,end) forwards; }
+      #story-caret-2 { animation: caret-2 8s steps(1,end) forwards; }
+      #story-caret-3 { animation: caret-3 8s steps(1,end) forwards; }
+      #story-caret-4 { animation: caret-4 8s steps(1,end) forwards; }
+      #story-caret-5 { animation: caret-5 8s steps(1,end) forwards; }
+      #caret-track-1 { animation: track-1 1.25s steps(33,end) .4s both; }
+      #caret-track-2 { animation: track-2 1.5s steps(34,end) 1.9s both; }
+      #caret-track-3 { animation: track-1 1.25s steps(33,end) 3.65s both; }
+      #caret-track-4 { animation: track-4 1.5s steps(37,end) 5.15s both; }
+      #caret-track-5 { animation: track-5 1.1s steps(29,end) 6.9s both; }
+      @keyframes track-1 { from { transform: translateX(0); } to { transform: translateX(554.4px); } }
+      @keyframes track-2 { from { transform: translateX(0); } to { transform: translateX(571.2px); } }
+      @keyframes track-4 { from { transform: translateX(0); } to { transform: translateX(621.6px); } }
+      @keyframes track-5 { from { transform: translateX(0); } to { transform: translateX(487.2px); } }
+      @keyframes caret-1 { 0%,23.75%,100% { opacity: 0; } 5% { opacity: 1; } }
+      @keyframes caret-2 { 0%,45.625%,100% { opacity: 0; } 23.75% { opacity: 1; } }
+      @keyframes caret-3 { 0%,64.375%,100% { opacity: 0; } 45.625% { opacity: 1; } }
+      @keyframes caret-4 { 0%,86.25%,100% { opacity: 0; } 64.375% { opacity: 1; } }
+      @keyframes caret-5 { 0% { opacity: 0; } 86.25%,100% { opacity: 1; } }
+      .caret-blink { animation: caret-blink 1s steps(1,end) infinite; }
+      @keyframes caret-blink { 0%,49% { opacity: 1; } 50%,100% { opacity: .12; } }
+      @media (prefers-reduced-motion: reduce) {
+        #type-clip-1,#type-clip-2,#type-clip-3,#type-clip-4,#type-clip-5,
+        #story-caret-1,#story-caret-2,#story-caret-3,#story-caret-4,#story-caret-5,
+        #caret-track-1,#caret-track-2,#caret-track-3,#caret-track-4,#caret-track-5,.caret-blink { animation: none; }
+        .story-caret { opacity: 0; }
+        #story-caret-5 { opacity: .65; }
+        #caret-track-5 { transform: translateX(487.2px); }
+      }
+    </style>
+  </defs>
+  <rect width="780" height="330" rx="14" fill="#0e110f"/>
+  <rect x="1" y="1" width="778" height="328" rx="13" fill="none" stroke="url(#story-edge)" stroke-width="2"/>
+  <path d="M14 1h752a13 13 0 0 1 13 13v35H1V14A13 13 0 0 1 14 1Z" fill="#171d16"/>
+  <path d="M1 49h778" stroke="#303b2b"/>
+  <text x="28" y="32" font-size="18" fill="#b9d997">&gt; whoami</text>
+  <text x="752" y="31" text-anchor="end" font-size="12" letter-spacing="1.3" fill="#a8b49b">VALI / HUMAN IN THE LOOP</text>
+  <ellipse cx="390" cy="190" rx="365" ry="145" fill="url(#story-glow)"/>
+  <path d="M23 80v183" stroke="#87a66e" stroke-opacity=".22" stroke-width="2"/>
+  <!-- A fixed character advance keeps each clip and cursor in exact agreement. -->
+  <text id="story-line-1" class="story-line" x="40" y="100" textLength="554.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#story-clip-1)">I'm Vali. Mechanic. Entrepreneur.</text>
+  <text id="story-line-2" class="story-line" x="40" y="140" textLength="571.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#story-clip-2)">I run a workshop. I build with AI.</text>
+  <text id="story-line-3" class="story-line" x="40" y="180" textLength="554.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#story-clip-3)">Claude + Codex help me turn ideas</text>
+  <text id="story-line-4" class="story-line" x="40" y="220" textLength="621.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#story-clip-4)">into apps. I steer. I test. I decide.</text>
+  <text id="story-line-5" class="story-line" x="40" y="260" textLength="487.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#story-clip-5)">From the garage to Mindforge.</text>
+  <g aria-hidden="true">
+    <g id="story-caret-1" class="story-caret"><g id="caret-track-1"><rect class="caret-blink" x="42" y="80" width="11" height="24"/></g></g>
+    <g id="story-caret-2" class="story-caret"><g id="caret-track-2"><rect class="caret-blink" x="42" y="120" width="11" height="24"/></g></g>
+    <g id="story-caret-3" class="story-caret"><g id="caret-track-3"><rect class="caret-blink" x="42" y="160" width="11" height="24"/></g></g>
+    <g id="story-caret-4" class="story-caret"><g id="caret-track-4"><rect class="caret-blink" x="42" y="200" width="11" height="24"/></g></g>
+    <g id="story-caret-5" class="story-caret"><g id="caret-track-5"><rect class="caret-blink" x="42" y="240" width="11" height="24"/></g></g>
+  </g>
+  <path d="M28 285h724" stroke="#2b3528"/>
+  <text x="28" y="309" font-size="12" letter-spacing=".8" fill="#91a47d">mindforgewr</text>
+  <text x="752" y="309" text-anchor="end" font-size="12" fill="#a9b39f">human-led <tspan fill="#65745b">/</tspan> AI-assisted</text>
+</svg>

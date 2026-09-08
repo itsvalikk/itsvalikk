@@ -1,12 +1,6 @@
 <a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. The bug returns to join their band: it's a feature."></a>
 
-# Vali — the builder behind Mindforge
-
-**Mechanic. Entrepreneur. Building with AI.**
-
-I run an automotive workshop and build software alongside it. **Mindforge** is where
-those ideas take shape: apps for everyday life, tools for creators, and software
-for the work behind the scenes.
+<img src="./assets/mindforge-story.svg" width="100%" alt="I'm Vali. Mechanic. Entrepreneur. I run a workshop. I build with AI. Claude and Codex help me turn ideas into apps. I steer. I test. I decide. From the garage to Mindforge.">
 
 [Explore the projects](#selected-work) [Inside the toolbench](#the-toolbench) [My story](#my-story) [Say hello](#say-hello)
 
