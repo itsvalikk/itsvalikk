@@ -91,7 +91,7 @@ const contact = card('contact', 'connect', 'SAY HELLO', [
 const behind = card('behind-the-profile', 'cat README.about', 'ARTWORK / PRIVACY', [
   paragraph('The product code stays private. This profile shares selected project summaries, not private source code, customer data or internal access details.', 'PRIVACY'),
   paragraph('The terminal banner is a self-contained SVG with no scripts, remote fonts or tracking. The companions are original fan illustrations inspired by the AI tools I use, not an affiliation with or endorsement by Anthropic or OpenAI.', 'ARTWORK'),
-  paragraph("The dialogue and test results are scripted jokes, not live checks or repository status. Their tiny sitcom: Claude throws a bug, Codex returns it, and the mechanic restores the peace. One stolen cymbal tap later, the bug joins the band. It's a feature."),
+  paragraph("The dialogue and test results are scripted jokes, not live checks or repository status. Their tiny sitcom: Claude throws a bug, Codex returns it, and the mechanic restores the peace. From his corner, Claude tosses a wrench past a ducking Codex and says 'test passed'. It lands safely beside him. Then the bug joins the band. It's a feature."),
   paragraph("The mechanic's wrench is a little piece of my day job. Reduced-motion preferences leave the musicians visible and stationary."),
   paragraph('Earlier artwork lives in mindforge-lab. The refresh script reads only allowlisted public activity; the saved snapshot below is not a live activity indicator.', 'PUBLIC ACTIVITY'),
 ]);
@@ -168,7 +168,7 @@ function marker(name) {
   return `<!-- ${name}:START -->${body}<!-- ${name}:END -->`;
 }
 const readme = [
-  '<a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg?v=dust36" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. The bug returns to join their band: it\'s a feature."></a>',
+  '<a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg?v=wrench36" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. Claude then tosses a wrench past Codex and says test passed. The bug joins their band: it\'s a feature."></a>',
   '<img src="./assets/mindforge-story.svg" width="100%" alt="I\'m Vali. Mechanic. Entrepreneur. I run a workshop. I build with AI. Claude and Codex help me turn ideas into apps. I steer. I test. I decide. From the garage to Mindforge.">',
   '[`> projects`](#selected-work) · [`> tools`](#the-toolbench) · [`> story`](#my-story) · [`> connect`](#say-hello)',
   '<a id="selected-work"></a>\n\n## `> ls projects`', image(overview),

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
   <title id="title">mindforgewr — Mindforge independent workshop</title>
-  <desc id="desc">The lowercase mindforgewr name is drawn in warm ivory square pixels inside a dark terminal. Claude, a joyful terracotta pixel creature, plays guitar while Codex, a mint headphone-wearing robot, plays drums. In this 36-second comedy, scripted dialogue jokes about a failed test. Claude winds up and throws a yellow pixel bug at Codex, who bats it straight back with a paddle. The harmless bug bounces off a cross-eyed Claude and drops away. They dash into a tumbling cartoon dust cloud, with hands, feet, stars and dust particles popping out. The dust settles and a mechanic’s wrench drops safely between them, prompting a high five and a scripted tests-passed message before they return to music. Claude sneaks over for one extra cymbal tap. Then the discarded bug hops back wearing a tiny top hat, takes the spotlight and plays a triangle. The surprised musicians welcome their new bandmate: it's a feature. Built with intention. mindforgewr.com. Human-led, AI-assisted.</desc>
+  <desc id="desc">The lowercase mindforgewr name is drawn in warm ivory square pixels inside a dark terminal. Claude, a joyful terracotta pixel creature, plays guitar while Codex, a mint headphone-wearing robot, plays drums. In this 36-second comedy, scripted dialogue jokes about a failed test. Claude winds up and throws a yellow pixel bug at Codex, who bats it straight back with a paddle. The harmless bug bounces off a cross-eyed Claude and drops away. They dash into a tumbling cartoon dust cloud, with hands, feet, stars and dust particles popping out. The dust settles and a mechanic’s wrench drops safely between them, prompting a high five and a scripted tests-passed message before they return to music. From his corner, Claude raises and tosses a spinning mechanic's wrench, saying test passed. Codex ducks as it passes above him and lands safely to his right. Then the discarded bug hops back wearing a tiny top hat, takes the spotlight and plays a triangle. The surprised musicians welcome their new bandmate: it's a feature. Built with intention. mindforgewr.com. Human-led, AI-assisted.</desc>
   <defs>
     <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="1" height="1" fill="#d7decf" opacity=".09"/></pattern>
     <radialGradient id="amber"><stop stop-color="#bb703b" stop-opacity=".16"/><stop offset="1" stop-color="#bb703b" stop-opacity="0"/></radialGradient>
@@ -16,6 +16,12 @@
       <path d="M-12-11h24v5h4V7h-4v5h-24V7h-4V-6h4Z" fill="#f6ce75"/>
       <path d="M-10-10h20v3h-20Z" fill="#fff0b9"/>
       <text x="0" y="5" text-anchor="middle" font-size="12" font-weight="bold" fill="#4e3825" shape-rendering="auto">BUG</text>
+    </g>
+    <g id="wrench-pixels" shape-rendering="crispEdges">
+      <path d="M-18-29h10v14H8v-14h10v25H9v34H-9V-4h-9Z" fill="#59796c"/>
+      <path d="M-15-27h5v15h20v-15h5v20H6v34H-6V-7h-9Z" fill="#c2d4c1"/>
+      <path d="M-14-26h3v16h22v-16h3v18H3v33H0V-8h-14Z" fill="#edf0d6"/>
+      <path d="M-2 17h4v6h-4Z" fill="#59796c"/>
     </g>
     <style>
       text { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
@@ -91,7 +97,7 @@
       @keyframes ding-cue { 0%,99.5%,100% { opacity: 0; } 91% { opacity: 1; } }
       @keyframes boot { from { opacity: .65; } to { opacity: 1; } }
       @keyframes cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: .12; } }
-      @keyframes claude-journey { 0%,30.5% { transform: translate(0,0); } 32.5%,55% { transform: translate(395px,0); } 62.5%,70% { transform: translate(0,0); } 75.5%,78.5% { transform: translate(765px,0); } 85.5%,100% { transform: translate(0,0); } }
+      @keyframes claude-journey { 0%,30.5% { transform: translate(0,0); } 32.5%,55% { transform: translate(395px,0); } 62.5%,100% { transform: translate(0,0); } }
       @keyframes openai-journey { 0%,30.5% { transform: translate(0,0); } 32.5%,55% { transform: translate(-405px,0); } 62.5%,100% { transform: translate(0,0); } }
       /* The actors wait at their corners during the throw, then dash into the scuffle. */
       @keyframes throw-props { 0%,30.5%,100% { opacity: 0; } 25% { opacity: 1; } }
@@ -213,16 +219,37 @@
       }
       #claude-instrument { animation-name: guitar-mode; }
       #surprise-hit { opacity: 0; animation: surprise-mode 36s linear infinite; }
-      .sneaky-tap { animation: extra-hit 36s linear infinite; transform-box: fill-box; transform-origin: 0% 90%; }
+      #claude-wrench-arm { animation: wrench-throw-arm 36s ease-in-out infinite; transform-origin: 30px 61px; }
+      #wrench-held { opacity: 0; animation: wrench-held 36s steps(1,end) infinite; }
+      #flying-wrench { opacity: 0; animation: wrench-flight 36s linear infinite; }
+      #flying-wrench-spin { animation: wrench-spin 36s linear infinite; }
+      #wrench-caption { opacity: 0; animation: wrench-caption 36s linear infinite; }
       .surprised-look { animation: double-take 36s ease-out infinite; transform-box: fill-box; transform-origin: 50% 90%; }
       .robot-normal-eyes { animation: normal-eyes 36s steps(1,end) infinite; }
       .robot-wide-eyes { opacity: 0; animation: wide-eyes 36s steps(1,end) infinite; }
-      @keyframes guitar-mode { 0%,25% { opacity: 1; } 26.5%,61.5% { opacity: 0; } 62.5%,70% { opacity: 1; } 71%,85% { opacity: 0; } 85.5%,100% { opacity: 1; } }
-      @keyframes surprise-mode { 0%,75.5% { opacity: 0; } 76%,78% { opacity: 1; } 78.5%,100% { opacity: 0; } }
-      @keyframes extra-hit { 0%,75.5%,78.5%,100% { transform: rotate(-14deg); } 76.5% { transform: rotate(2deg); } 77%,78% { transform: rotate(-12deg); } }
-      @keyframes double-take { 0%,76%,79.5%,100% { transform: translate(0,0) rotate(0); } 76.6%,78.5% { transform: translate(-2px,4px) rotate(-7deg); } }
-      @keyframes normal-eyes { 0%,29%,79%,90.75%,100% { opacity: 1; } 27.4%,76.5%,88% { opacity: 0; } }
-      @keyframes wide-eyes { 0%,29%,79%,90.75%,100% { opacity: 0; } 27.4%,76.5%,88% { opacity: 1; } }
+      @keyframes guitar-mode { 0%,25% { opacity: 1; } 26.5%,61.5% { opacity: 0; } 62.5%,70% { opacity: 1; } 70.5%,74.5% { opacity: 0; } 75.5%,100% { opacity: 1; } }
+      @keyframes surprise-mode { 0%,70% { opacity: 0; } 70.5%,74.5% { opacity: 1; } 75.5%,100% { opacity: 0; } }
+      @keyframes wrench-throw-arm { 0%,70%,75.5%,100% { transform: rotate(0); } 71.3% { transform: rotate(-75deg); } 72%,72.4% { transform: rotate(-10deg); } 73%,74.5% { transform: rotate(17deg); } }
+      @keyframes wrench-held { 0%,72%,100% { opacity: 0; } 70.5% { opacity: 1; } }
+      @keyframes wrench-flight {
+        0%,71.99% { opacity: 0; transform: translate(233px,348px); }
+        72% { opacity: 1; transform: translate(233px,348px); }
+        73.4% { opacity: 1; transform: translate(430px,324px); }
+        75% { opacity: 1; transform: translate(660px,311px); }
+        76.5% { opacity: 1; transform: translate(845px,292px); }
+        78% { opacity: 1; transform: translate(1035px,285px); }
+        79% { opacity: 1; transform: translate(1150px,282px); }
+        79.5% { opacity: 1; transform: translate(1150px,349px); }
+        80.6% { opacity: 1; transform: translate(1150px,403px); }
+        81% { opacity: 1; transform: translate(1150px,395px); }
+        81.5%,82% { opacity: 1; transform: translate(1150px,414px); }
+        82.5%,100% { opacity: 0; transform: translate(1150px,414px); }
+      }
+      @keyframes wrench-spin { 0%,72% { transform: rotate(-45deg); } 78% { transform: rotate(720deg); } 80.6%,100% { transform: rotate(990deg); } }
+      @keyframes wrench-caption { 0%,72.5% { opacity: 0; } 73%,81.5% { opacity: 1; } 82.5%,100% { opacity: 0; } }
+      @keyframes double-take { 0%,76%,80.5%,100% { transform: translate(0,0) rotate(0); } 77%,79% { transform: translate(5px,24px) rotate(8deg); } }
+      @keyframes normal-eyes { 0%,29%,80.5%,90.75%,100% { opacity: 1; } 27.4%,76.5%,88% { opacity: 0; } }
+      @keyframes wide-eyes { 0%,29%,80.5%,90.75%,100% { opacity: 0; } 27.4%,76.5%,88% { opacity: 1; } }
       @media (prefers-reduced-motion: reduce) {
         .wordmark,.cursor,#claude-travel,#openai-travel,.music,.play-arms,#scuffle,#claude-head,.robot-head,.strum,.stick-left,.stick-right,.cymbal,.toe,.pluck,.note,.eyes,.puff,.star,.fist { animation: none; }
         #claude-travel,#openai-travel { transform: translate(0,0); }
@@ -231,7 +258,9 @@
         #claude-combat,#openai-combat { opacity: 1; }
         #dust-cloud,.dust-particle,#dust-claude-limb,#dust-codex-limb { animation: none; }
         .impact-claude,.impact-openai { opacity: 0; }
-        #banter-claude,#banter-openai,#mechanic-wrench,#reconciliation,#highfive,#surprise-hit,.sneaky-tap,.surprised-look,.robot-normal-eyes,.robot-wide-eyes { animation: none; }
+        #banter-claude,#banter-openai,#mechanic-wrench,#reconciliation,#highfive,#surprise-hit,.surprised-look,.robot-normal-eyes,.robot-wide-eyes { animation: none; }
+        #claude-wrench-arm,#wrench-held,#flying-wrench,#flying-wrench-spin,#wrench-caption { animation: none; }
+        #wrench-held,#flying-wrench,#wrench-caption { opacity: 0; }
         #surprise-hit,.robot-wide-eyes { opacity: 0; }
         .robot-normal-eyes { opacity: 1; }
         .surprised-look { transform: none; }
@@ -353,12 +382,12 @@
           <path d="M55 50h5v9h-5Z" fill="#c88a63"/>
         </g>
       </g>
-      <g id="surprise-hit" aria-label="Claude sneaks in one extra cymbal tap">
-        <g class="sneaky-tap">
-          <path d="M33 61h10V50h13v5h12v9H54v-6h-6v12H33Z" fill="#e1a07b"/>
-          <path d="M57 55h10v4H57Z" fill="#f6cfaa"/>
+      <g id="surprise-hit" aria-label="Claude stays in his corner, winds up and throws a mechanic's wrench">
+        <g id="claude-wrench-arm">
+          <path d="M27 57h17V45h16v-9h12v16H60v8H44v8H27Z" fill="#e1a07b"/>
+          <path d="M59 35h12v7H59Z" fill="#f6cfaa"/>
+          <g id="wrench-held"><use href="#wrench-pixels" transform="translate(68 22) rotate(15) scale(.85)"/></g>
         </g>
-        <path d="M61 47v-7m9 8 6-5m-2 14h7" fill="none" stroke="#efd28d" stroke-width="2"/>
       </g>
       </g>
     </g>
@@ -507,6 +536,15 @@
       <path d="M598 319h3v20h-3Z" fill="#f3ebc7"/>
       <path d="M587 317l-5-4m30 4 5-4" stroke="#c7df93" stroke-width="2" fill="none"/>
     </g>
+  </g>
+
+  <!-- A single spinning wrench passes over a ducking Codex and lands safely to his right. -->
+  <g id="wrench-caption" aria-label="Claude says test passed">
+    <path d="M57 272h225v40H181l-15 10-3-10H57Z" fill="#251f18" stroke="#a9855b"/>
+    <text x="170" y="300" text-anchor="middle" fill="#f4d2a8" font-size="24">test passed</text>
+  </g>
+  <g id="flying-wrench" aria-label="A mechanic's wrench spins from Claude's corner, passes above Codex and lands beside him">
+    <g id="flying-wrench-spin"><use href="#wrench-pixels"/></g>
   </g>
 
   <!-- The discarded bug gets the last word: not deleted, promoted to percussion. -->
