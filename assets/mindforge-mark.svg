@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Mindforge pixel monogram</title>
+  <desc id="desc">A bespoke ivory dot-matrix M and lime terminal cursor on deep charcoal. The central mark remains intact in a circular avatar crop.</desc>
+  <defs>
+    <radialGradient id="ambient"><stop stop-color="#95b677" stop-opacity=".12"/><stop offset="1" stop-color="#95b677" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="1" height="1" fill="#bed3ac" opacity=".1"/></pattern>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0e110f"/>
+  <circle cx="256" cy="256" r="235" fill="url(#ambient)"/>
+  <rect width="512" height="512" rx="112" fill="url(#grid)"/>
+  <circle cx="256" cy="256" r="219" fill="none" stroke="#46543a" stroke-width="1.5"/>
+  <path d="M118 142h26v26h-26ZM310 142h26v26h-26ZM118 174h26v26h-26ZM150 174h26v26h-26ZM278 174h26v26h-26ZM310 174h26v26h-26ZM118 206h26v26h-26ZM150 206h26v26h-26ZM182 206h26v26h-26ZM246 206h26v26h-26ZM278 206h26v26h-26ZM310 206h26v26h-26ZM118 238h26v26h-26ZM182 238h26v26h-26ZM214 238h26v26h-26ZM246 238h26v26h-26ZM310 238h26v26h-26ZM118 270h26v26h-26ZM214 270h26v26h-26ZM310 270h26v26h-26ZM118 302h26v26h-26ZM310 302h26v26h-26ZM118 334h26v26h-26ZM310 334h26v26h-26Z" fill="#e8edda"/>
+  <path d="M355 334h26v26h-26Z" fill="#b7da83"/>
+  <path d="M118 393h28m8 0h8" stroke="#829b66" stroke-width="3"/>
+</svg>
