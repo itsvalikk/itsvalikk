@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="699" viewBox="0 0 780 699" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="431" viewBox="0 0 780 431" role="img" aria-labelledby="title desc">
   <title id="title">open Atelier — EXPERIMENTAL</title>
-  <desc id="desc">research before risk A workspace for researching trading strategies, evaluating risk and testing ideas through simulations before considering real-world use. FOR: Structured research, comparison and testing — not promises of returns. INSIDE: Strategy research, evaluation and a personal trading dashboard. BUILT WITH: Next.js, TypeScript, Drizzle and SQLite.</desc>
+  <desc id="desc">Research and compare trading strategies, evaluate risk and simulate ideas in a personal dashboard before real-world use. STATUS: Experimental research — not promises of returns. BUILT WITH: Next.js, TypeScript, Drizzle and SQLite.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,23 +8,18 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="699" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="697" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="431" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="429" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open Atelier</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">EXPERIMENTAL</text>
-  <text x="34" y="91" class="line" textLength="336" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">research before risk</text>
-  <text x="34" y="150" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">A workspace for researching trading</text>
-  <text x="34" y="188" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">strategies, evaluating risk and testing</text>
-  <text x="34" y="226" class="line" textLength="537.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">ideas through simulations before</text>
-  <text x="34" y="264" class="line" textLength="453.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">considering real-world use.</text>
-  <text x="34" y="323" class="label">FOR</text>
-  <text x="34" y="358" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Structured research, comparison and</text>
-  <text x="34" y="396" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">testing — not promises of returns.</text>
-  <text x="34" y="455" class="label">INSIDE</text>
-  <text x="34" y="490" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">Strategy research, evaluation and a</text>
-  <text x="34" y="528" class="line" textLength="453.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">personal trading dashboard.</text>
-  <text x="34" y="587" class="label">BUILT WITH</text>
-  <text x="34" y="622" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">Next.js, TypeScript, Drizzle and SQLite.</text>
-  <path d="M34 676h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Research and compare trading strategies,</text>
+  <text x="34" y="127" class="line" textLength="621.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">evaluate risk and simulate ideas in a</text>
+  <text x="34" y="163" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">personal dashboard before real-world use.</text>
+  <text x="34" y="211" class="label">STATUS</text>
+  <text x="34" y="246" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Experimental research — not promises of</text>
+  <text x="34" y="282" class="line" textLength="134.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">returns.</text>
+  <text x="34" y="330" class="label">BUILT WITH</text>
+  <text x="34" y="365" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Next.js, TypeScript, Drizzle and SQLite.</text>
+  <path d="M34 408h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="699" viewBox="0 0 780 699" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="348" viewBox="0 0 780 348" role="img" aria-labelledby="title desc">
   <title id="title">open Trainic — ACTIVE DEVELOPMENT</title>
-  <desc id="desc">a healthier daily routine Training and nutrition in Romanian, bringing workouts, food tracking and daily habits into one application. FOR: People who want to train and build healthier routines in Romanian. INSIDE: Workouts, nutrition, habits and an AI coach informed by calculated data. BUILT WITH: Expo, React Native, TypeScript and Supabase; iOS and web.</desc>
+  <desc id="desc">Training and nutrition in Romanian: workouts, food tracking, daily habits and an AI coach informed by calculated data. BUILT WITH: Expo, React Native, TypeScript and Supabase; iOS and web.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,23 +8,16 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="699" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="697" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="348" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="346" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open Trainic</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">ACTIVE DEVELOPMENT</text>
-  <text x="34" y="91" class="line" textLength="420" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">a healthier daily routine</text>
-  <text x="34" y="150" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">Training and nutrition in Romanian,</text>
-  <text x="34" y="188" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">bringing workouts, food tracking and daily</text>
-  <text x="34" y="226" class="line" textLength="470.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">habits into one application.</text>
-  <text x="34" y="285" class="label">FOR</text>
-  <text x="34" y="320" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">People who want to train and build</text>
-  <text x="34" y="358" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">healthier routines in Romanian.</text>
-  <text x="34" y="417" class="label">INSIDE</text>
-  <text x="34" y="452" class="line" textLength="621.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">Workouts, nutrition, habits and an AI</text>
-  <text x="34" y="490" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">coach informed by calculated data.</text>
-  <text x="34" y="549" class="label">BUILT WITH</text>
-  <text x="34" y="584" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">Expo, React Native, TypeScript and</text>
-  <text x="34" y="622" class="line" textLength="369.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">Supabase; iOS and web.</text>
-  <path d="M34 676h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Training and nutrition in Romanian:</text>
+  <text x="34" y="127" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">workouts, food tracking, daily habits and</text>
+  <text x="34" y="163" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">an AI coach informed by calculated data.</text>
+  <text x="34" y="211" class="label">BUILT WITH</text>
+  <text x="34" y="246" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Expo, React Native, TypeScript and</text>
+  <text x="34" y="282" class="line" textLength="369.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Supabase; iOS and web.</text>
+  <path d="M34 325h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

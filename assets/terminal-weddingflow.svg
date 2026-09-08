@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="737" viewBox="0 0 780 737" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="396" viewBox="0 0 780 396" role="img" aria-labelledby="title desc">
   <title id="title">open WeddingFlow — COLLABORATION</title>
-  <desc id="desc">planning the big day A wedding-planning platform built in collaboration with Filip, with separate spaces for couples, suppliers and administrators. FOR: Bringing wedding planning and supplier coordination into one place. INSIDE: Role-based spaces and German, English and Romanian language support. BUILT WITH: React, TypeScript, Vite and Supabase. A shared project, not a solo creation.</desc>
+  <desc id="desc">Wedding planning with Filip, with separate spaces for couples, suppliers and administrators. German, English and Romanian support. A shared project, not a solo creation. BUILT WITH: React, TypeScript, Vite and Supabase.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,24 +8,17 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="737" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="735" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="396" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="394" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open WeddingFlow</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">COLLABORATION</text>
-  <text x="34" y="91" class="line" textLength="336" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">planning the big day</text>
-  <text x="34" y="150" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">A wedding-planning platform built in</text>
-  <text x="34" y="188" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">collaboration with Filip, with separate</text>
-  <text x="34" y="226" class="line" textLength="554.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">spaces for couples, suppliers and</text>
-  <text x="34" y="264" class="line" textLength="252" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">administrators.</text>
-  <text x="34" y="323" class="label">FOR</text>
-  <text x="34" y="358" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Bringing wedding planning and supplier</text>
-  <text x="34" y="396" class="line" textLength="470.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">coordination into one place.</text>
-  <text x="34" y="455" class="label">INSIDE</text>
-  <text x="34" y="490" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">Role-based spaces and German, English and</text>
-  <text x="34" y="528" class="line" textLength="436.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">Romanian language support.</text>
-  <text x="34" y="587" class="label">BUILT WITH</text>
-  <text x="34" y="622" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">React, TypeScript, Vite and Supabase. A</text>
-  <text x="34" y="660" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.250s">shared project, not a solo creation.</text>
-  <path d="M34 714h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Wedding planning with Filip, with separate</text>
+  <text x="34" y="127" class="line" textLength="554.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">spaces for couples, suppliers and</text>
+  <text x="34" y="163" class="line" textLength="252" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">administrators.</text>
+  <text x="34" y="211" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">German, English and Romanian support. A</text>
+  <text x="34" y="247" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">shared project, not a solo creation.</text>
+  <text x="34" y="295" class="label">BUILT WITH</text>
+  <text x="34" y="330" class="line" textLength="621.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">React, TypeScript, Vite and Supabase.</text>
+  <path d="M34 373h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

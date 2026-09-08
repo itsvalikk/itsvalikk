@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="549" viewBox="0 0 780 549" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" role="img" aria-labelledby="title desc">
   <title id="title">ls projects — SELECTED WORK</title>
-  <desc id="desc">Real problems from the workshop. New possibilities with AI. Open a project to look inside. Products, experiments and collaborations — including work that lives locally, not only on GitHub. STATUS: These are development projects, not claims that every feature is finished or publicly available.</desc>
+  <desc id="desc">Real workshop problems, explored with AI. Open a project: products, experiments and collaborations, including local work beyond GitHub. STATUS: These are development projects, not claims that every feature is finished or publicly available.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,20 +8,18 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="549" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="547" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="420" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="418" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; ls projects</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">SELECTED WORK</text>
-  <text x="34" y="91" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Real problems from the workshop. New</text>
-  <text x="34" y="129" class="line" textLength="369.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">possibilities with AI.</text>
-  <text x="34" y="188" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">Open a project to look inside. Products,</text>
-  <text x="34" y="226" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">experiments and collaborations — including</text>
-  <text x="34" y="264" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">work that lives locally, not only on</text>
-  <text x="34" y="302" class="line" textLength="117.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">GitHub.</text>
-  <text x="34" y="361" class="label">STATUS</text>
-  <text x="34" y="396" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">These are development projects, not claims</text>
-  <text x="34" y="434" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">that every feature is finished or publicly</text>
-  <text x="34" y="472" class="line" textLength="168" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">available.</text>
-  <path d="M34 526h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Real workshop problems, explored with AI.</text>
+  <text x="34" y="127" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">Open a project: products, experiments and</text>
+  <text x="34" y="163" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">collaborations, including local work</text>
+  <text x="34" y="199" class="line" textLength="235.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">beyond GitHub.</text>
+  <text x="34" y="247" class="label">STATUS</text>
+  <text x="34" y="282" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">These are development projects, not claims</text>
+  <text x="34" y="318" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">that every feature is finished or publicly</text>
+  <text x="34" y="354" class="line" textLength="168" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">available.</text>
+  <path d="M34 397h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

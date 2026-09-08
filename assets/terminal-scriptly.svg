@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="775" viewBox="0 0 780 775" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="432" viewBox="0 0 780 432" role="img" aria-labelledby="title desc">
   <title id="title">open Scriptly — CREATOR TOOLS</title>
-  <desc id="desc">from idea to camera Helps creators who appear on camera turn an idea or a reference clip into a script and an editing plan for TikTok, Reels and Shorts. FOR: Creators planning what to say, shoot and edit. INSIDE: Written scripts and production planning, with an administration console. BUILT WITH: Next.js, React, TypeScript and Supabase. It plans content; it does not render finished videos.</desc>
+  <desc id="desc">For on-camera creators: turn an idea or reference clip into scripts and editing plans for TikTok, Reels and Shorts. Production planning and an administration console. It does not render finished videos. BUILT WITH: Next.js, React, TypeScript and Supabase.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,25 +8,18 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="775" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="773" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="432" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="430" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open Scriptly</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">CREATOR TOOLS</text>
-  <text x="34" y="91" class="line" textLength="319.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">from idea to camera</text>
-  <text x="34" y="150" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">Helps creators who appear on camera turn</text>
-  <text x="34" y="188" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">an idea or a reference clip into a script</text>
-  <text x="34" y="226" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">and an editing plan for TikTok, Reels and</text>
-  <text x="34" y="264" class="line" textLength="117.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Shorts.</text>
-  <text x="34" y="323" class="label">FOR</text>
-  <text x="34" y="358" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Creators planning what to say, shoot and</text>
-  <text x="34" y="396" class="line" textLength="84" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">edit.</text>
-  <text x="34" y="455" class="label">INSIDE</text>
-  <text x="34" y="490" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">Written scripts and production planning,</text>
-  <text x="34" y="528" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">with an administration console.</text>
-  <text x="34" y="587" class="label">BUILT WITH</text>
-  <text x="34" y="622" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">Next.js, React, TypeScript and Supabase.</text>
-  <text x="34" y="660" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.250s">It plans content; it does not render</text>
-  <text x="34" y="698" class="line" textLength="268.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.275s">finished videos.</text>
-  <path d="M34 752h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">For on-camera creators: turn an idea or</text>
+  <text x="34" y="127" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">reference clip into scripts and editing</text>
+  <text x="34" y="163" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">plans for TikTok, Reels and Shorts.</text>
+  <text x="34" y="211" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Production planning and an administration</text>
+  <text x="34" y="247" class="line" textLength="604.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">console. It does not render finished</text>
+  <text x="34" y="283" class="line" textLength="117.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">videos.</text>
+  <text x="34" y="331" class="label">BUILT WITH</text>
+  <text x="34" y="366" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">Next.js, React, TypeScript and Supabase.</text>
+  <path d="M34 409h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

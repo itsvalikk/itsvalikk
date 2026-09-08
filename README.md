@@ -1,4 +1,4 @@
-<a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. The bug returns to join their band: it's a feature."></a>
+<a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg?v=dust36" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. The bug returns to join their band: it's a feature."></a>
 
 <img src="./assets/mindforge-story.svg" width="100%" alt="I'm Vali. Mechanic. Entrepreneur. I run a workshop. I build with AI. Claude and Codex help me turn ideas into apps. I steer. I test. I decide. From the garage to Mindforge.">
 
@@ -8,7 +8,7 @@
 
 ## `> ls projects`
 
-<img src="./assets/terminal-selected-work.svg" width="100%" alt="Real problems from the workshop. New possibilities with AI. Open a project to look inside. Products, experiments and collaborations — including work that lives locally, not only on GitHub. STATUS: These are development projects, not claims that every feature is finished or publicly available.">
+<img src="./assets/terminal-selected-work.svg" width="100%" alt="Real workshop problems, explored with AI. Open a project: products, experiments and collaborations, including local work beyond GitHub. STATUS: These are development projects, not claims that every feature is finished or publicly available.">
 
 <pre>
 &gt; cat NOW
@@ -23,35 +23,35 @@ working with AI models on Windows.
 <details open>
 <summary><code>&gt; open Trainic  [Active development]</code></summary>
 
-<img src="./assets/terminal-trainic.svg" width="100%" alt="a healthier daily routine Training and nutrition in Romanian, bringing workouts, food tracking and daily habits into one application. FOR: People who want to train and build healthier routines in Romanian. INSIDE: Workouts, nutrition, habits and an AI coach informed by calculated data. BUILT WITH: Expo, React Native, TypeScript and Supabase; iOS and web.">
+<img src="./assets/terminal-trainic.svg" width="100%" alt="Training and nutrition in Romanian: workouts, food tracking, daily habits and an AI coach informed by calculated data. BUILT WITH: Expo, React Native, TypeScript and Supabase; iOS and web.">
 
 </details>
 
 <details>
 <summary><code>&gt; open Atlas  [Desktop app]</code></summary>
 
-<img src="./assets/terminal-atlas.svg" width="100%" alt="an AI workspace on Windows A local desktop application that brings AI providers, models and project tools into one workspace. FOR: Working with different AI models without constantly switching applications. INSIDE: Online and local model support, project tools and web search. BUILT WITH: Electron and JavaScript. Public distribution is not announced here.">
+<img src="./assets/terminal-atlas.svg" width="100%" alt="A local AI workspace on Windows: providers, online and local models, project tools and web search in one application. BUILT WITH: Electron and JavaScript. Public distribution is not announced here.">
 
 </details>
 
 <details>
 <summary><code>&gt; open Atelier  [Experimental]</code></summary>
 
-<img src="./assets/terminal-atelier.svg" width="100%" alt="research before risk A workspace for researching trading strategies, evaluating risk and testing ideas through simulations before considering real-world use. FOR: Structured research, comparison and testing — not promises of returns. INSIDE: Strategy research, evaluation and a personal trading dashboard. BUILT WITH: Next.js, TypeScript, Drizzle and SQLite.">
+<img src="./assets/terminal-atelier.svg" width="100%" alt="Research and compare trading strategies, evaluate risk and simulate ideas in a personal dashboard before real-world use. STATUS: Experimental research — not promises of returns. BUILT WITH: Next.js, TypeScript, Drizzle and SQLite.">
 
 </details>
 
 <details>
 <summary><code>&gt; open Scriptly  [Creator tools]</code></summary>
 
-<img src="./assets/terminal-scriptly.svg" width="100%" alt="from idea to camera Helps creators who appear on camera turn an idea or a reference clip into a script and an editing plan for TikTok, Reels and Shorts. FOR: Creators planning what to say, shoot and edit. INSIDE: Written scripts and production planning, with an administration console. BUILT WITH: Next.js, React, TypeScript and Supabase. It plans content; it does not render finished videos.">
+<img src="./assets/terminal-scriptly.svg" width="100%" alt="For on-camera creators: turn an idea or reference clip into scripts and editing plans for TikTok, Reels and Shorts. Production planning and an administration console. It does not render finished videos. BUILT WITH: Next.js, React, TypeScript and Supabase.">
 
 </details>
 
 <details>
 <summary><code>&gt; open Social Growth Brain  [Social tools]</code></summary>
 
-<img src="./assets/terminal-social-growth-brain.svg" width="100%" alt="a content workbench A studio for planning, generating and managing social content, with a calendar and an approval workflow. FOR: Organizing social content from idea through review and publishing. INSIDE: AI-assisted drafting, scheduling and social publishing integrations. BUILT WITH: JavaScript, Supabase, Deno and Cloudflare.">
+<img src="./assets/terminal-social-growth-brain.svg" width="100%" alt="Plan and manage social content with AI-assisted drafts, a calendar, approval workflow, scheduling and publishing integrations. BUILT WITH: JavaScript, Supabase, Deno and Cloudflare.">
 
 </details>
 
@@ -60,14 +60,14 @@ working with AI models on Windows.
 <details>
 <summary><code>&gt; open PitStop Garage MK  [My workshop]</code></summary>
 
-<img src="./assets/terminal-pitstop-garage-mk.svg" width="100%" alt="built from my day job The website and workshop platform for my own automotive business. This is where the mechanic side and the software side of my work meet. FOR: The everyday organization of an automotive workshop. INSIDE: A public website, customer portal, workshop management and invoicing. BUILT WITH: Next.js, Supabase and Cloudflare, alongside a static website.">
+<img src="./assets/terminal-pitstop-garage-mk.svg" width="100%" alt="The website and workshop platform for my own automotive business, bringing my day job and software together. Public website, customer portal, workshop management and invoicing. BUILT WITH: Next.js, Supabase and Cloudflare, alongside a static website.">
 
 </details>
 
 <details>
 <summary><code>&gt; open WeddingFlow  [Collaboration]</code></summary>
 
-<img src="./assets/terminal-weddingflow.svg" width="100%" alt="planning the big day A wedding-planning platform built in collaboration with Filip, with separate spaces for couples, suppliers and administrators. FOR: Bringing wedding planning and supplier coordination into one place. INSIDE: Role-based spaces and German, English and Romanian language support. BUILT WITH: React, TypeScript, Vite and Supabase. A shared project, not a solo creation.">
+<img src="./assets/terminal-weddingflow.svg" width="100%" alt="Wedding planning with Filip, with separate spaces for couples, suppliers and administrators. German, English and Romanian support. A shared project, not a solo creation. BUILT WITH: React, TypeScript, Vite and Supabase.">
 
 </details>
 
@@ -80,14 +80,14 @@ working with AI models on Windows.
 <details>
 <summary><code>&gt; open Graphify Desktop  [Local tool]</code></summary>
 
-<img src="./assets/terminal-graphify-desktop.svg" width="100%" alt="see the shape of code A desktop-style viewer for Graphify code maps, with search, connected paths and navigation back to source files. PURPOSE: Understand how a codebase fits together. BUILT WITH: Node.js, JavaScript and Canvas. CREDIT: My interface works with Graphify maps; the Graphify engine is not my creation.">
+<img src="./assets/terminal-graphify-desktop.svg" width="100%" alt="Explore Graphify code maps with search, connected paths and links back to source files to understand a codebase. BUILT WITH: Node.js, JavaScript and Canvas. CREDIT: My interface works with Graphify maps; the Graphify engine is not my creation.">
 
 </details>
 
 <details>
 <summary><code>&gt; open Eroare Hub  [Internal tool]</code></summary>
 
-<img src="./assets/terminal-eroare-hub.svg" width="100%" alt="keep an eye on the work A shared dashboard for application errors and status, designed to bring issues that need attention into one place. PURPOSE: Make problems easier to find across projects. BUILT WITH: TypeScript, Hono, Cloudflare Workers and D1. PRIVACY: An internal tool; access addresses and operational data are not shared here.">
+<img src="./assets/terminal-eroare-hub.svg" width="100%" alt="A shared dashboard for application errors and status, bringing issues across projects into one place. BUILT WITH: TypeScript, Hono, Cloudflare Workers and D1. PRIVACY: An internal tool; access addresses and operational data are not shared here.">
 
 </details>
 
@@ -98,7 +98,7 @@ working with AI models on Windows.
 <details>
 <summary><code>&gt; read story  [From an automotive workshop to building with AI]</code></summary>
 
-<img src="./assets/terminal-my-story.svg" width="100%" alt="My working day starts in an automotive workshop. I'm a mechanic and an entrepreneur; building software is something I do alongside that work. Discovering AI opened a new door. I began turning ideas into applications, learning as I went and using Claude and Codex to help me build, test and improve them. Mindforge is where that side of my work lives. The workshop is still part of the story. PitStop Garage MK comes directly from it. The other projects let me explore how software can help beyond the garage, too. I bring the problems and the product direction. AI helps me explore and build. The decisions and responsibility stay with me.">
+<img src="./assets/terminal-my-story.svg" width="100%" alt="I'm a mechanic and entrepreneur. I run an automotive workshop and build software alongside that work. AI opened a new door. At Mindforge, I learn by turning ideas into apps with Claude and Codex, then testing and improving them. PitStop Garage MK comes from my day job; other projects reach beyond the garage. I set the product direction. The decisions and responsibility stay with me.">
 
 </details>
 

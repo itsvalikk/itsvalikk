@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="623" viewBox="0 0 780 623" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="431" viewBox="0 0 780 431" role="img" aria-labelledby="title desc">
   <title id="title">open Graphify Desktop — LOCAL TOOL</title>
-  <desc id="desc">see the shape of code A desktop-style viewer for Graphify code maps, with search, connected paths and navigation back to source files. PURPOSE: Understand how a codebase fits together. BUILT WITH: Node.js, JavaScript and Canvas. CREDIT: My interface works with Graphify maps; the Graphify engine is not my creation.</desc>
+  <desc id="desc">Explore Graphify code maps with search, connected paths and links back to source files to understand a codebase. BUILT WITH: Node.js, JavaScript and Canvas. CREDIT: My interface works with Graphify maps; the Graphify engine is not my creation.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,21 +8,18 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="623" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="621" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="431" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="429" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open Graphify Desktop</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">LOCAL TOOL</text>
-  <text x="34" y="91" class="line" textLength="352.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">see the shape of code</text>
-  <text x="34" y="150" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">A desktop-style viewer for Graphify code</text>
-  <text x="34" y="188" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">maps, with search, connected paths and</text>
-  <text x="34" y="226" class="line" textLength="537.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">navigation back to source files.</text>
-  <text x="34" y="285" class="label">PURPOSE</text>
-  <text x="34" y="320" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Understand how a codebase fits together.</text>
-  <text x="34" y="379" class="label">BUILT WITH</text>
-  <text x="34" y="414" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Node.js, JavaScript and Canvas.</text>
-  <text x="34" y="473" class="label">CREDIT</text>
-  <text x="34" y="508" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">My interface works with Graphify maps; the</text>
-  <text x="34" y="546" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">Graphify engine is not my creation.</text>
-  <path d="M34 600h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Explore Graphify code maps with search,</text>
+  <text x="34" y="127" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">connected paths and links back to source</text>
+  <text x="34" y="163" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">files to understand a codebase.</text>
+  <text x="34" y="211" class="label">BUILT WITH</text>
+  <text x="34" y="246" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Node.js, JavaScript and Canvas.</text>
+  <text x="34" y="294" class="label">CREDIT</text>
+  <text x="34" y="329" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">My interface works with Graphify maps; the</text>
+  <text x="34" y="365" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Graphify engine is not my creation.</text>
+  <path d="M34 408h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

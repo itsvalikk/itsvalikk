@@ -18,79 +18,65 @@ function card(id, command, status, paragraphs) {
 }
 
 const overview = card('selected-work', 'ls projects', 'SELECTED WORK', [
-  paragraph('Real problems from the workshop. New possibilities with AI.'),
-  paragraph('Open a project to look inside. Products, experiments and collaborations — including work that lives locally, not only on GitHub.'),
+  paragraph('Real workshop problems, explored with AI. Open a project: products, experiments and collaborations, including local work beyond GitHub.'),
   paragraph('These are development projects, not claims that every feature is finished or publicly available.', 'STATUS'),
 ]);
 
 const projects = [
   { name: 'Trainic', slug: 'trainic', summary: 'a healthier daily routine', status: 'Active development', group: 'projects', body: [
-    paragraph('Training and nutrition in Romanian, bringing workouts, food tracking and daily habits into one application.'),
-    paragraph('People who want to train and build healthier routines in Romanian.', 'FOR'),
-    paragraph('Workouts, nutrition, habits and an AI coach informed by calculated data.', 'INSIDE'),
+    paragraph('Training and nutrition in Romanian: workouts, food tracking, daily habits and an AI coach informed by calculated data.'),
     paragraph('Expo, React Native, TypeScript and Supabase; iOS and web.', 'BUILT WITH'),
   ] },
   { name: 'Atlas', slug: 'atlas', summary: 'an AI workspace on Windows', status: 'Desktop app', group: 'projects', body: [
-    paragraph('A local desktop application that brings AI providers, models and project tools into one workspace.'),
-    paragraph('Working with different AI models without constantly switching applications.', 'FOR'),
-    paragraph('Online and local model support, project tools and web search.', 'INSIDE'),
+    paragraph('A local AI workspace on Windows: providers, online and local models, project tools and web search in one application.'),
     paragraph('Electron and JavaScript. Public distribution is not announced here.', 'BUILT WITH'),
   ] },
   { name: 'Atelier', slug: 'atelier', summary: 'research before risk', status: 'Experimental', group: 'projects', body: [
-    paragraph('A workspace for researching trading strategies, evaluating risk and testing ideas through simulations before considering real-world use.'),
-    paragraph('Structured research, comparison and testing — not promises of returns.', 'FOR'),
-    paragraph('Strategy research, evaluation and a personal trading dashboard.', 'INSIDE'),
+    paragraph('Research and compare trading strategies, evaluate risk and simulate ideas in a personal dashboard before real-world use.'),
+    paragraph('Experimental research — not promises of returns.', 'STATUS'),
     paragraph('Next.js, TypeScript, Drizzle and SQLite.', 'BUILT WITH'),
   ] },
   { name: 'Scriptly', slug: 'scriptly', summary: 'from idea to camera', status: 'Creator tools', group: 'projects', body: [
-    paragraph('Helps creators who appear on camera turn an idea or a reference clip into a script and an editing plan for TikTok, Reels and Shorts.'),
-    paragraph('Creators planning what to say, shoot and edit.', 'FOR'),
-    paragraph('Written scripts and production planning, with an administration console.', 'INSIDE'),
-    paragraph('Next.js, React, TypeScript and Supabase. It plans content; it does not render finished videos.', 'BUILT WITH'),
+    paragraph('For on-camera creators: turn an idea or reference clip into scripts and editing plans for TikTok, Reels and Shorts.'),
+    paragraph('Production planning and an administration console. It does not render finished videos.'),
+    paragraph('Next.js, React, TypeScript and Supabase.', 'BUILT WITH'),
   ] },
   { name: 'Social Growth Brain', slug: 'social-growth-brain', summary: 'a content workbench', status: 'Social tools', group: 'projects', body: [
-    paragraph('A studio for planning, generating and managing social content, with a calendar and an approval workflow.'),
-    paragraph('Organizing social content from idea through review and publishing.', 'FOR'),
-    paragraph('AI-assisted drafting, scheduling and social publishing integrations.', 'INSIDE'),
+    paragraph('Plan and manage social content with AI-assisted drafts, a calendar, approval workflow, scheduling and publishing integrations.'),
     paragraph('JavaScript, Supabase, Deno and Cloudflare.', 'BUILT WITH'),
   ] },
   { name: 'PitStop Garage MK', slug: 'pitstop-garage-mk', summary: 'built from my day job', status: 'My workshop', group: 'businesses', body: [
-    paragraph('The website and workshop platform for my own automotive business. This is where the mechanic side and the software side of my work meet.'),
-    paragraph('The everyday organization of an automotive workshop.', 'FOR'),
-    paragraph('A public website, customer portal, workshop management and invoicing.', 'INSIDE'),
+    paragraph('The website and workshop platform for my own automotive business, bringing my day job and software together.'),
+    paragraph('Public website, customer portal, workshop management and invoicing.'),
     paragraph('Next.js, Supabase and Cloudflare, alongside a static website.', 'BUILT WITH'),
   ] },
   { name: 'WeddingFlow', slug: 'weddingflow', summary: 'planning the big day', status: 'Collaboration', group: 'businesses', body: [
-    paragraph('A wedding-planning platform built in collaboration with Filip, with separate spaces for couples, suppliers and administrators.'),
-    paragraph('Bringing wedding planning and supplier coordination into one place.', 'FOR'),
-    paragraph('Role-based spaces and German, English and Romanian language support.', 'INSIDE'),
-    paragraph('React, TypeScript, Vite and Supabase. A shared project, not a solo creation.', 'BUILT WITH'),
+    paragraph('Wedding planning with Filip, with separate spaces for couples, suppliers and administrators.'),
+    paragraph('German, English and Romanian support. A shared project, not a solo creation.'),
+    paragraph('React, TypeScript, Vite and Supabase.', 'BUILT WITH'),
   ] },
   { name: 'Graphify Desktop', slug: 'graphify-desktop', summary: 'see the shape of code', status: 'Local tool', group: 'tools', body: [
-    paragraph('A desktop-style viewer for Graphify code maps, with search, connected paths and navigation back to source files.'),
-    paragraph('Understand how a codebase fits together.', 'PURPOSE'),
+    paragraph('Explore Graphify code maps with search, connected paths and links back to source files to understand a codebase.'),
     paragraph('Node.js, JavaScript and Canvas.', 'BUILT WITH'),
     paragraph('My interface works with Graphify maps; the Graphify engine is not my creation.', 'CREDIT'),
   ] },
   { name: 'Eroare Hub', slug: 'eroare-hub', summary: 'keep an eye on the work', status: 'Internal tool', group: 'tools', body: [
-    paragraph('A shared dashboard for application errors and status, designed to bring issues that need attention into one place.'),
-    paragraph('Make problems easier to find across projects.', 'PURPOSE'),
+    paragraph('A shared dashboard for application errors and status, bringing issues across projects into one place.'),
     paragraph('TypeScript, Hono, Cloudflare Workers and D1.', 'BUILT WITH'),
     paragraph('An internal tool; access addresses and operational data are not shared here.', 'PRIVACY'),
   ] },
 ];
 for (const project of projects) {
-  project.card = card(project.slug, 'open ' + project.name, project.status.toUpperCase(), [paragraph(project.summary), ...project.body]);
+  project.card = card(project.slug, 'open ' + project.name, project.status.toUpperCase(), project.body);
 }
 
 const toolbench = card('toolbench', 'ls tools', 'THE TOOLBENCH', [
   paragraph('The smaller tools behind the products. Built to make the next task easier.'),
 ]);
 const story = card('my-story', 'cat story.txt', 'FROM THE GARAGE', [
-  paragraph("My working day starts in an automotive workshop. I'm a mechanic and an entrepreneur; building software is something I do alongside that work."),
-  paragraph('Discovering AI opened a new door. I began turning ideas into applications, learning as I went and using Claude and Codex to help me build, test and improve them. Mindforge is where that side of my work lives.'),
-  paragraph('The workshop is still part of the story. PitStop Garage MK comes directly from it. The other projects let me explore how software can help beyond the garage, too.'),
-  paragraph('I bring the problems and the product direction. AI helps me explore and build. The decisions and responsibility stay with me.'),
+  paragraph("I'm a mechanic and entrepreneur. I run an automotive workshop and build software alongside that work."),
+  paragraph('AI opened a new door. At Mindforge, I learn by turning ideas into apps with Claude and Codex, then testing and improving them.'),
+  paragraph('PitStop Garage MK comes from my day job; other projects reach beyond the garage. I set the product direction. The decisions and responsibility stay with me.'),
 ]);
 const process = card('how-i-work', 'cat process.txt', 'HOW I WORK', [
   paragraph('Start with a real problem and a clear idea of who it helps.', '01 / THE PROBLEM'),
@@ -136,10 +122,10 @@ function renderSvg(item) {
     for (const line of wrap(part.text)) {
       const width = Number((line.length * 16.8).toFixed(1));
       elements.push(`<text x="34" y="${y}" class="line" textLength="${width}" lengthAdjust="spacingAndGlyphs" style="animation-delay:${Math.min(row * 0.025, 0.45).toFixed(3)}s">${escapeXml(line)}</text>`);
-      y += 38;
+      y += 36;
       row += 1;
     }
-    y += 21;
+    y += 12;
   }
   const height = y + 18;
   const description = item.paragraphs.map(p => (p.label ? p.label + ': ' : '') + p.text).join(' ');
@@ -182,7 +168,7 @@ function marker(name) {
   return `<!-- ${name}:START -->${body}<!-- ${name}:END -->`;
 }
 const readme = [
-  '<a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. The bug returns to join their band: it\'s a feature."></a>',
+  '<a href="https://mindforgewr.com/"><img src="./assets/mindforge-terminal.svg?v=dust36" width="100%" alt="mindforgewr — Claude throws a bug, Codex returns it, and a mechanic restores peace. The bug returns to join their band: it\'s a feature."></a>',
   '<img src="./assets/mindforge-story.svg" width="100%" alt="I\'m Vali. Mechanic. Entrepreneur. I run a workshop. I build with AI. Claude and Codex help me turn ideas into apps. I steer. I test. I decide. From the garage to Mindforge.">',
   '[`> projects`](#selected-work) · [`> tools`](#the-toolbench) · [`> story`](#my-story) · [`> connect`](#say-hello)',
   '<a id="selected-work"></a>\n\n## `> ls projects`', image(overview),

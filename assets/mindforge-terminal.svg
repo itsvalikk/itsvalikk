@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
   <title id="title">mindforgewr — Mindforge independent workshop</title>
-  <desc id="desc">The lowercase mindforgewr name is drawn in warm ivory square pixels inside a dark terminal. Claude, a joyful terracotta pixel creature, plays guitar while Codex, a mint headphone-wearing robot, plays drums. Scripted dialogue jokes about a failed test. After five seconds Claude winds up and throws a yellow pixel bug at Codex, who bats it straight back with a paddle. The harmless bug bounces off a cross-eyed Claude and drops away. They dash together for a playful cartoon tussle; a mechanic’s wrench drops safely between them, prompting a high five and a scripted tests-passed message before they return to music. Claude sneaks over for one extra cymbal tap. Then the discarded bug hops back wearing a tiny top hat, takes the spotlight and plays a triangle. The surprised musicians welcome their new bandmate: it's a feature. Built with intention. mindforgewr.com. Human-led, AI-assisted.</desc>
+  <desc id="desc">The lowercase mindforgewr name is drawn in warm ivory square pixels inside a dark terminal. Claude, a joyful terracotta pixel creature, plays guitar while Codex, a mint headphone-wearing robot, plays drums. In this 36-second comedy, scripted dialogue jokes about a failed test. Claude winds up and throws a yellow pixel bug at Codex, who bats it straight back with a paddle. The harmless bug bounces off a cross-eyed Claude and drops away. They dash into a tumbling cartoon dust cloud, with hands, feet, stars and dust particles popping out. The dust settles and a mechanic’s wrench drops safely between them, prompting a high five and a scripted tests-passed message before they return to music. Claude sneaks over for one extra cymbal tap. Then the discarded bug hops back wearing a tiny top hat, takes the spotlight and plays a triangle. The surprised musicians welcome their new bandmate: it's a feature. Built with intention. mindforgewr.com. Human-led, AI-assisted.</desc>
   <defs>
     <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="1" height="1" fill="#d7decf" opacity=".09"/></pattern>
     <radialGradient id="amber"><stop stop-color="#bb703b" stop-opacity=".16"/><stop offset="1" stop-color="#bb703b" stop-opacity="0"/></radialGradient>
@@ -21,46 +21,57 @@
       text { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
       .wordmark { animation: boot .9s ease-out .15s both; }
       .cursor { animation: cursor 1.2s steps(1,end) infinite; }
-      #claude-travel { animation: claude-journey 20s ease-in-out infinite; }
-      #openai-travel { animation: openai-journey 20s ease-in-out infinite; }
-      .music { animation: music-mode 20s linear infinite; }
-      .play-arms,#scuffle { opacity: 0; animation: play-mode 20s linear infinite; }
-      #claude-head { animation: head-bop .6s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 92%; }
-      .robot-head { animation: robot-nod .6s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 92%; }
-      .strum { animation: strum .3s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 5% 10%; }
-      .stick-left { animation: drum-left .6s ease-in-out infinite; transform-box: fill-box; transform-origin: 90% 90%; }
-      .stick-right { animation: drum-right .6s ease-in-out infinite; transform-box: fill-box; transform-origin: 8% 90%; }
-      .cymbal { animation: cymbal .6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .toe { animation: tap .6s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
-      .pluck { animation: pluck .6s ease-out infinite; }
+      #claude-travel { animation: claude-journey 36s ease-in-out infinite; }
+      #openai-travel { animation: openai-journey 36s ease-in-out infinite; }
+      .music { animation: music-mode 36s linear infinite; }
+      .play-arms { opacity: 0; animation: play-mode 36s linear infinite; }
+      #scuffle { opacity: 0; animation: dust-mode 36s linear infinite; }
+      #dust-cloud { animation: cloud-tumble .7s ease-in-out infinite alternate; transform-origin: 600px 373px; }
+      .dust-particle { animation: dust-drift .9s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      .dust-particle-two { animation-delay: .45s; }
+      #dust-claude-limb { animation: dust-kick .8s ease-in-out infinite alternate; transform-origin: 553px 378px; }
+      #dust-codex-limb { animation: dust-kick .8s ease-in-out -.4s infinite alternate-reverse; transform-origin: 650px 378px; }
+      @keyframes dust-mode { 0%,32.7% { opacity: 0; } 33.4%,43.5% { opacity: 1; } 44.9%,100% { opacity: 0; } }
+      @keyframes combat-visibility { 0%,32.7%,44.5%,100% { opacity: 1; } 33.4%,43.9% { opacity: 0; } }
+      @keyframes cloud-tumble { from { transform: translate(-5px,2px) rotate(-3deg) scale(1,.97); } to { transform: translate(5px,-2px) rotate(3deg) scale(.97,1.03); } }
+      @keyframes dust-drift { from { opacity: .65; transform: translateY(0) scale(.6); } to { opacity: 0; transform: translateY(-16px) scale(1.3); } }
+      @keyframes dust-kick { 0%,25% { transform: rotate(-12deg) translateY(3px); } 75%,100% { transform: rotate(14deg) translateY(-6px); } }
+      #claude-head { animation: head-bop .8s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 92%; }
+      .robot-head { animation: robot-nod .8s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 92%; }
+      .strum { animation: strum .4s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 5% 10%; }
+      .stick-left { animation: drum-left .8s ease-in-out infinite; transform-box: fill-box; transform-origin: 90% 90%; }
+      .stick-right { animation: drum-right .8s ease-in-out infinite; transform-box: fill-box; transform-origin: 8% 90%; }
+      .cymbal { animation: cymbal .8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .toe { animation: tap .8s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+      .pluck { animation: pluck .8s ease-out infinite; }
       .note { animation: note 1.8s ease-out infinite; }
       .note-two { animation-delay: .9s; }
       .eyes { animation: blink 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
       .puff { animation: tumble .24s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
       .star { animation: twinkle .5s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
       #claude-combat,#openai-combat { transform-box: fill-box; transform-origin: 50% 95%; }
-      #claude-combat { animation: claude-exchange 20s linear infinite; }
-      #openai-combat { animation: openai-exchange 20s linear infinite; }
-      #claude-punch { animation: claude-jab 20s linear infinite; transform-box: fill-box; transform-origin: 0% 80%; }
-      #openai-punch { animation: openai-counter 20s linear infinite; transform-box: fill-box; transform-origin: 100% 80%; }
-      .impact-claude { opacity: 0; animation: claude-contact 20s steps(1,end) infinite; }
-      .impact-openai { opacity: 0; animation: openai-contact 20s steps(1,end) infinite; }
-      #claude-throw,#codex-swatter { opacity: 0; animation: throw-props 20s steps(1,end) infinite; }
-      #claude-throw-hand { animation: throw-hand 20s linear infinite; transform-box: view-box; transform-origin: 196px 375px; }
-      #codex-return-hand { animation: return-hand 20s linear infinite; transform-box: view-box; transform-origin: 1018px 376px; }
-      #bug-projectile { opacity: 0; animation: bug-flight 20s linear infinite; }
-      #bug-spin { animation: bug-spin 20s linear infinite; }
-      #bug-return-caption { opacity: 0; animation: return-caption 20s steps(1,end) infinite; }
-      #bug-bonk { opacity: 0; animation: bug-bonk 20s steps(1,end) infinite; }
-      .claude-usual-face { animation: usual-face 20s steps(1,end) infinite; }
-      #claude-bug-face { opacity: 0; animation: bug-face 20s steps(1,end) infinite; }
-      #bug-encore { opacity: 0; animation: encore-entrance 20s linear infinite; }
-      #feature-caption,#encore-spotlight { opacity: 0; animation: feature-reveal 20s linear infinite; }
-      #encore-reactions { opacity: 0; animation: encore-reactions 20s steps(1,end) infinite; }
+      #claude-combat { animation: claude-exchange 36s linear infinite, combat-visibility 36s linear infinite; }
+      #openai-combat { animation: openai-exchange 36s linear infinite, combat-visibility 36s linear infinite; }
+      #claude-punch { animation: claude-jab 36s linear infinite; transform-box: fill-box; transform-origin: 0% 80%; }
+      #openai-punch { animation: openai-counter 36s linear infinite; transform-box: fill-box; transform-origin: 100% 80%; }
+      .impact-claude { opacity: 0; animation: claude-contact 36s steps(1,end) infinite; }
+      .impact-openai { opacity: 0; animation: openai-contact 36s steps(1,end) infinite; }
+      #claude-throw,#codex-swatter { opacity: 0; animation: throw-props 36s steps(1,end) infinite; }
+      #claude-throw-hand { animation: throw-hand 36s linear infinite; transform-box: view-box; transform-origin: 196px 375px; }
+      #codex-return-hand { animation: return-hand 36s linear infinite; transform-box: view-box; transform-origin: 1018px 376px; }
+      #bug-projectile { opacity: 0; animation: bug-flight 36s linear infinite; }
+      #bug-spin { animation: bug-spin 36s linear infinite; }
+      #bug-return-caption { opacity: 0; animation: return-caption 36s steps(1,end) infinite; }
+      #bug-bonk { opacity: 0; animation: bug-bonk 36s steps(1,end) infinite; }
+      .claude-usual-face { animation: usual-face 36s steps(1,end) infinite; }
+      #claude-bug-face { opacity: 0; animation: bug-face 36s steps(1,end) infinite; }
+      #bug-encore { opacity: 0; animation: encore-entrance 36s linear infinite; }
+      #feature-caption,#encore-spotlight { opacity: 0; animation: feature-reveal 36s linear infinite; }
+      #encore-reactions { opacity: 0; animation: encore-reactions 36s steps(1,end) infinite; }
       #encore-bug-body { animation: bug-boogie .4s ease-in-out infinite alternate; }
       #triangle-beater { animation: triangle-tap .4s ease-in-out infinite; transform-box: view-box; transform-origin: 26px 7px; }
       #encore-ding { opacity: 0; animation: ding-beat .4s ease-out infinite; }
-      #encore-ding-cue { opacity: 0; animation: ding-cue 20s steps(1,end) infinite; }
+      #encore-ding-cue { opacity: 0; animation: ding-cue 36s steps(1,end) infinite; }
       @keyframes encore-entrance {
         0%,86.49% { opacity: 0; transform: translate(233px,420px); }
         86.5% { opacity: 1; transform: translate(233px,420px); }
@@ -178,11 +189,11 @@
         0%,37.5%,38.75%,42%,43.2%,100% { opacity: 0; }
         38%,42.5% { opacity: 1; }
       }
-      #banter-claude,#banter-openai { opacity: 0; animation: banter 20s linear infinite; }
+      #banter-claude,#banter-openai { opacity: 0; animation: banter 36s linear infinite; }
       #banter-openai { animation-name: reply; }
-      #mechanic-wrench { opacity: 0; animation: wrench-drop 20s linear infinite; }
-      #reconciliation { opacity: 0; animation: make-up 20s linear infinite; }
-      #highfive { animation: highfive-slap 20s ease-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+      #mechanic-wrench { opacity: 0; animation: wrench-drop 36s linear infinite; }
+      #reconciliation { opacity: 0; animation: make-up 36s linear infinite; }
+      #highfive { animation: highfive-slap 36s ease-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
       @keyframes banter { 0%,12.5% { opacity: 0; } 14%,24% { opacity: 1; } 25%,100% { opacity: 0; } }
       @keyframes reply { 0%,16% { opacity: 0; } 17.5%,24% { opacity: 1; } 25%,100% { opacity: 0; } }
       @keyframes wrench-drop {
@@ -201,11 +212,11 @@
         51.5%,54% { transform: translateY(0) scaleX(1); }
       }
       #claude-instrument { animation-name: guitar-mode; }
-      #surprise-hit { opacity: 0; animation: surprise-mode 20s linear infinite; }
-      .sneaky-tap { animation: extra-hit 20s linear infinite; transform-box: fill-box; transform-origin: 0% 90%; }
-      .surprised-look { animation: double-take 20s ease-out infinite; transform-box: fill-box; transform-origin: 50% 90%; }
-      .robot-normal-eyes { animation: normal-eyes 20s steps(1,end) infinite; }
-      .robot-wide-eyes { opacity: 0; animation: wide-eyes 20s steps(1,end) infinite; }
+      #surprise-hit { opacity: 0; animation: surprise-mode 36s linear infinite; }
+      .sneaky-tap { animation: extra-hit 36s linear infinite; transform-box: fill-box; transform-origin: 0% 90%; }
+      .surprised-look { animation: double-take 36s ease-out infinite; transform-box: fill-box; transform-origin: 50% 90%; }
+      .robot-normal-eyes { animation: normal-eyes 36s steps(1,end) infinite; }
+      .robot-wide-eyes { opacity: 0; animation: wide-eyes 36s steps(1,end) infinite; }
       @keyframes guitar-mode { 0%,25% { opacity: 1; } 26.5%,61.5% { opacity: 0; } 62.5%,70% { opacity: 1; } 71%,85% { opacity: 0; } 85.5%,100% { opacity: 1; } }
       @keyframes surprise-mode { 0%,75.5% { opacity: 0; } 76%,78% { opacity: 1; } 78.5%,100% { opacity: 0; } }
       @keyframes extra-hit { 0%,75.5%,78.5%,100% { transform: rotate(-14deg); } 76.5% { transform: rotate(2deg); } 77%,78% { transform: rotate(-12deg); } }
@@ -217,6 +228,8 @@
         #claude-travel,#openai-travel { transform: translate(0,0); }
         #claude-combat,#openai-combat,#claude-punch,#openai-punch,.impact-claude,.impact-openai { animation: none; }
         #claude-combat,#openai-combat,#claude-punch,#openai-punch { transform: none; }
+        #claude-combat,#openai-combat { opacity: 1; }
+        #dust-cloud,.dust-particle,#dust-claude-limb,#dust-codex-limb { animation: none; }
         .impact-claude,.impact-openai { opacity: 0; }
         #banter-claude,#banter-openai,#mechanic-wrench,#reconciliation,#highfive,#surprise-hit,.sneaky-tap,.surprised-look,.robot-normal-eyes,.robot-wide-eyes { animation: none; }
         #surprise-hit,.robot-wide-eyes { opacity: 0; }
@@ -447,20 +460,30 @@
     <text x="140" y="307" text-anchor="middle" stroke="none" fill="#ffe0a4" font-size="13">boop!</text>
   </g>
 
-  <!-- Short alternating jabs, counters and recoils; no injury or face-covering cloud. -->
-  <g id="scuffle" aria-label="A playful exchange of cartoon jabs and dodges">
-    <g class="puff" shape-rendering="crispEdges" opacity=".45">
-      <path d="M550 419h10v-5h15v4h15v6h-8v4h-30Zm75-1h10v-5h15v4h16v7h-8v4h-30Z" fill="#adbea0"/>
-      <path d="M560 416h13v4h-13Zm77 0h12v4h-12Z" fill="#d6dfbd"/>
+  <!-- A harmless cartoon dust-cloud tussle; the whole actors are hidden only here. -->
+  <g id="scuffle" aria-label="Claude and Codex tumble inside a cartoon dust cloud, with feet and hands popping out">
+    <g class="dust-particle" fill="#bbc4a2"><path d="M487 368h11v8h-11Zm16 42h13v8h-13Zm180-73h10v8h-10Z"/></g>
+    <g class="dust-particle dust-particle-two" fill="#cdbf93"><path d="M703 383h12v8h-12Zm-29 37h14v7h-14Zm-162-83h9v7h-9Z"/></g>
+    <g id="dust-claude-limb" shape-rendering="crispEdges">
+      <path d="M549 372h-18v-12h-9v-18h-12v-6h-12v21h12v12h15v15h24Z" fill="#dda07a"/>
+      <path d="M499 338h11v6h-11Z" fill="#f6cda0"/>
+      <path d="M557 400h-14v14h-22v10h35v-9h8Z" fill="#eab08a"/>
     </g>
-    <g class="impact-claude" fill="none" stroke="#f0d298" stroke-width="3" stroke-linecap="square">
-      <path d="m624 350 7-7m-3 14h10m-14 6 7 7m-16-25v-7"/>
-      <path d="m620 355 3 3-3 3-3-3Z" fill="#ffe4ad" stroke="none"/>
+    <g id="dust-codex-limb" shape-rendering="crispEdges">
+      <path d="M648 378h17v-14h13v-15h13v-14h12v23h-12v13h-12v17h-31Z" fill="#b8d2b5"/>
+      <path d="M692 337h10v6h-10Z" fill="#e9efd3"/>
+      <path d="M640 404h17v11h23v10h-35v-9h-9Z" fill="#d0e0c1"/>
     </g>
-    <g class="impact-openai" fill="none" stroke="#d9e5af" stroke-width="3" stroke-linecap="square">
-      <path d="m577 354-7-7m3 14h-10m14 6-7 7m16-25v-7"/>
-      <path d="m581 359 3 3-3 3-3-3Z" fill="#eaf0cd" stroke="none"/>
+    <g id="dust-cloud" shape-rendering="crispEdges">
+      <path d="M527 346v-13h23v-13h30v-8h30v8h32v11h27v13h15v19h13v25h-11v17h-22v12h-34v8h-49v-7h-32v-9h-25v-15h-15v-27h9v-21Z" fill="#8d9980"/>
+      <path d="M533 348v-11h23v-12h24v-7h27v8h30v11h27v13h14v18h12v17h-11v15h-19v11h-32v8h-45v-7h-30v-9h-24v-13h-14v-19h10v-23Z" fill="#bac3a4"/>
+      <path d="M549 344h20v-11h26v-7h21v9h20v13h-27v-8h-27v10h-25v12h-16Zm-13 39h17v14h30v9h34v8h-37v-6h-29v-9h-15Z" fill="#dbe0bf"/>
+      <path d="M582 358h28v7h-20v13h-9v-12h-12v-7h13Zm52 28h18v-14h8v21h-26Zm-64-2h17v7h-17Z" fill="#8e9c7e"/>
+      <path d="M608 383h14v-9h8v18h-22Z" fill="#a4b18f"/>
     </g>
+    <g class="star" fill="#f1d894"><path d="m574 304 3 8 8 3-8 3-3 8-3-8-8-3 8-3Zm77 7 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/></g>
+    <g class="impact-claude" stroke="#f3d99d" stroke-width="3"><path d="m499 386-10-5m15 16-9 6"/></g>
+    <g class="impact-openai" stroke="#dce7bd" stroke-width="3"><path d="m703 358 10-6m-9 22 11 4"/></g>
   </g>
 
   <!-- A mechanic's tool lands in the clear gap, never striking either musician. -->

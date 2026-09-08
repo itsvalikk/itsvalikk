@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="737" viewBox="0 0 780 737" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="432" viewBox="0 0 780 432" role="img" aria-labelledby="title desc">
   <title id="title">open PitStop Garage MK — MY WORKSHOP</title>
-  <desc id="desc">built from my day job The website and workshop platform for my own automotive business. This is where the mechanic side and the software side of my work meet. FOR: The everyday organization of an automotive workshop. INSIDE: A public website, customer portal, workshop management and invoicing. BUILT WITH: Next.js, Supabase and Cloudflare, alongside a static website.</desc>
+  <desc id="desc">The website and workshop platform for my own automotive business, bringing my day job and software together. Public website, customer portal, workshop management and invoicing. BUILT WITH: Next.js, Supabase and Cloudflare, alongside a static website.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,24 +8,18 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="737" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="735" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="432" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="430" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open PitStop Garage MK</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">MY WORKSHOP</text>
-  <text x="34" y="91" class="line" textLength="352.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">built from my day job</text>
-  <text x="34" y="150" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">The website and workshop platform for my</text>
-  <text x="34" y="188" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">own automotive business. This is where the</text>
-  <text x="34" y="226" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">mechanic side and the software side of my</text>
-  <text x="34" y="264" class="line" textLength="168" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">work meet.</text>
-  <text x="34" y="323" class="label">FOR</text>
-  <text x="34" y="358" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">The everyday organization of an automotive</text>
-  <text x="34" y="396" class="line" textLength="151.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">workshop.</text>
-  <text x="34" y="455" class="label">INSIDE</text>
-  <text x="34" y="490" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">A public website, customer portal,</text>
-  <text x="34" y="528" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">workshop management and invoicing.</text>
-  <text x="34" y="587" class="label">BUILT WITH</text>
-  <text x="34" y="622" class="line" textLength="554.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">Next.js, Supabase and Cloudflare,</text>
-  <text x="34" y="660" class="line" textLength="453.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.250s">alongside a static website.</text>
-  <path d="M34 714h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">The website and workshop platform for my</text>
+  <text x="34" y="127" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">own automotive business, bringing my day</text>
+  <text x="34" y="163" class="line" textLength="436.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">job and software together.</text>
+  <text x="34" y="211" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Public website, customer portal, workshop</text>
+  <text x="34" y="247" class="line" textLength="420" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">management and invoicing.</text>
+  <text x="34" y="295" class="label">BUILT WITH</text>
+  <text x="34" y="330" class="line" textLength="554.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Next.js, Supabase and Cloudflare,</text>
+  <text x="34" y="366" class="line" textLength="453.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">alongside a static website.</text>
+  <path d="M34 409h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

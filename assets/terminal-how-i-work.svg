@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="807" viewBox="0 0 780 807" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="740" viewBox="0 0 780 740" role="img" aria-labelledby="title desc">
   <title id="title">cat process.txt — HOW I WORK</title>
   <desc id="desc">01 / THE PROBLEM: Start with a real problem and a clear idea of who it helps. 02 / THE FIRST VERSION: Shape the smallest useful version. 03 / BUILD AND VERIFY: Build with AI, inspect the result and test what actually works. 04 / THE NEXT ITERATION: Use feedback to decide what to improve next. TOOLKIT: My projects use a mix of TypeScript, React Native, Next.js, Electron, Supabase and Cloudflare, with Claude Code and Codex as building partners.</desc>
   <style>
@@ -8,26 +8,26 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="807" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="805" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="740" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="738" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; cat process.txt</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">HOW I WORK</text>
   <text x="34" y="91" class="label">01 / THE PROBLEM</text>
   <text x="34" y="126" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">Start with a real problem and a clear idea</text>
-  <text x="34" y="164" class="line" textLength="268.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">of who it helps.</text>
-  <text x="34" y="223" class="label">02 / THE FIRST VERSION</text>
-  <text x="34" y="258" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">Shape the smallest useful version.</text>
-  <text x="34" y="317" class="label">03 / BUILD AND VERIFY</text>
-  <text x="34" y="352" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Build with AI, inspect the result and test</text>
-  <text x="34" y="390" class="line" textLength="336" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">what actually works.</text>
-  <text x="34" y="449" class="label">04 / THE NEXT ITERATION</text>
-  <text x="34" y="484" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Use feedback to decide what to improve</text>
-  <text x="34" y="522" class="line" textLength="84" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">next.</text>
-  <text x="34" y="581" class="label">TOOLKIT</text>
-  <text x="34" y="616" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">My projects use a mix of TypeScript, React</text>
-  <text x="34" y="654" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">Native, Next.js, Electron, Supabase and</text>
-  <text x="34" y="692" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">Cloudflare, with Claude Code and Codex as</text>
-  <text x="34" y="730" class="line" textLength="302.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.250s">building partners.</text>
-  <path d="M34 784h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="162" class="line" textLength="268.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">of who it helps.</text>
+  <text x="34" y="210" class="label">02 / THE FIRST VERSION</text>
+  <text x="34" y="245" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">Shape the smallest useful version.</text>
+  <text x="34" y="293" class="label">03 / BUILD AND VERIFY</text>
+  <text x="34" y="328" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">Build with AI, inspect the result and test</text>
+  <text x="34" y="364" class="line" textLength="336" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">what actually works.</text>
+  <text x="34" y="412" class="label">04 / THE NEXT ITERATION</text>
+  <text x="34" y="447" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">Use feedback to decide what to improve</text>
+  <text x="34" y="483" class="line" textLength="84" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">next.</text>
+  <text x="34" y="531" class="label">TOOLKIT</text>
+  <text x="34" y="566" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">My projects use a mix of TypeScript, React</text>
+  <text x="34" y="602" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">Native, Next.js, Electron, Supabase and</text>
+  <text x="34" y="638" class="line" textLength="688.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">Cloudflare, with Claude Code and Codex as</text>
+  <text x="34" y="674" class="line" textLength="302.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.250s">building partners.</text>
+  <path d="M34 717h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

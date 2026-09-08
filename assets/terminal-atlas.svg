@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="699" viewBox="0 0 780 699" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="384" viewBox="0 0 780 384" role="img" aria-labelledby="title desc">
   <title id="title">open Atlas — DESKTOP APP</title>
-  <desc id="desc">an AI workspace on Windows A local desktop application that brings AI providers, models and project tools into one workspace. FOR: Working with different AI models without constantly switching applications. INSIDE: Online and local model support, project tools and web search. BUILT WITH: Electron and JavaScript. Public distribution is not announced here.</desc>
+  <desc id="desc">A local AI workspace on Windows: providers, online and local models, project tools and web search in one application. BUILT WITH: Electron and JavaScript. Public distribution is not announced here.</desc>
   <style>
     text { font-family: Consolas, 'Liberation Mono', monospace; }
     .line { font-size: 28px; fill: #eceee5; animation: reveal .3s ease-out both; }
@@ -8,23 +8,17 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="699" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="697" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="384" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="382" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; open Atlas</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">DESKTOP APP</text>
-  <text x="34" y="91" class="line" textLength="436.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">an AI workspace on Windows</text>
-  <text x="34" y="150" class="line" textLength="705.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">A local desktop application that brings AI</text>
-  <text x="34" y="188" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">providers, models and project tools into</text>
-  <text x="34" y="226" class="line" textLength="235.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">one workspace.</text>
-  <text x="34" y="285" class="label">FOR</text>
-  <text x="34" y="320" class="line" textLength="672" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Working with different AI models without</text>
-  <text x="34" y="358" class="line" textLength="571.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">constantly switching applications.</text>
-  <text x="34" y="417" class="label">INSIDE</text>
-  <text x="34" y="452" class="line" textLength="655.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.150s">Online and local model support, project</text>
-  <text x="34" y="490" class="line" textLength="352.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.175s">tools and web search.</text>
-  <text x="34" y="549" class="label">BUILT WITH</text>
-  <text x="34" y="584" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.200s">Electron and JavaScript. Public</text>
-  <text x="34" y="622" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.225s">distribution is not announced here.</text>
-  <path d="M34 676h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="91" class="line" textLength="537.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">A local AI workspace on Windows:</text>
+  <text x="34" y="127" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">providers, online and local models,</text>
+  <text x="34" y="163" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.050s">project tools and web search in one</text>
+  <text x="34" y="199" class="line" textLength="201.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.075s">application.</text>
+  <text x="34" y="247" class="label">BUILT WITH</text>
+  <text x="34" y="282" class="line" textLength="520.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.100s">Electron and JavaScript. Public</text>
+  <text x="34" y="318" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.125s">distribution is not announced here.</text>
+  <path d="M34 361h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>

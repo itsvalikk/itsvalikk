@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="206" viewBox="0 0 780 206" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="193" viewBox="0 0 780 193" role="img" aria-labelledby="title desc">
   <title id="title">ls tools — THE TOOLBENCH</title>
   <desc id="desc">The smaller tools behind the products. Built to make the next task easier.</desc>
   <style>
@@ -8,12 +8,12 @@
     @keyframes reveal { from { fill: #c0dfa2; } to { fill: #eceee5; } }
     @media (prefers-reduced-motion: reduce) { .line { animation: none; } }
   </style>
-  <rect width="780" height="206" rx="12" fill="#050505"/>
-  <rect x="1" y="1" width="778" height="204" rx="11" fill="none" stroke="#283026"/>
+  <rect width="780" height="193" rx="12" fill="#050505"/>
+  <rect x="1" y="1" width="778" height="191" rx="11" fill="none" stroke="#283026"/>
   <path d="M1 52h778" stroke="#283026"/>
   <text x="28" y="34" fill="#c0dfa2" font-size="22">&gt; ls tools</text>
   <text x="750" y="33" text-anchor="end" fill="#8f9c84" font-size="12" letter-spacing=".7">THE TOOLBENCH</text>
   <text x="34" y="91" class="line" textLength="638.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">The smaller tools behind the products.</text>
-  <text x="34" y="129" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">Built to make the next task easier.</text>
-  <path d="M34 183h23" stroke="#8ba76d" stroke-width="3"/>
+  <text x="34" y="127" class="line" textLength="588" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.025s">Built to make the next task easier.</text>
+  <path d="M34 170h23" stroke="#8ba76d" stroke-width="3"/>
 </svg>
