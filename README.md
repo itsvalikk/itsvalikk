@@ -20,6 +20,15 @@ Scriptly, an application and the console that operates it, built and released as
 
 ## The work
 
+<pre>
+mindforge █
+───────────────────────────────────────────────────
+Trainic ───────────── iOS, Web
+Scriptly ──────────── App, Admin console
+Trading journal ───── Journal, Portfolio, Dashboard
+PitStop Garage MK ─── Website, Workshop platform
+</pre>
+
 Four builds, nine surfaces. Every repository behind them is private, so there
 is nothing here to browse. What follows is what each one is and what it puts
 in front of a person.
@@ -28,21 +37,21 @@ in front of a person.
 Romanian. Written iOS first and served on the web from the same codebase
 through react-native-web, so there is one app to build and one app to fix.
 Supabase carries auth, data and storage.
-Surfaces: iOS, Web. Built with Expo, React Native, Supabase.
+Built with Expo, React Native, Supabase.
 
 **Scriptly.** The application people use and the console that operates it,
 built and released as one. One data model, one release, and no seam between
 whoever builds it and whoever runs it, because both are me.
-Surfaces: App, Admin console. Built with TypeScript.
+Built with TypeScript.
 
 **Trading journal.** Three views over one set of records: the journal a trade
 is written into, the portfolio of what is currently open, and the performance
 read across both.
-Surfaces: Journal, Portfolio, Dashboard. Built with TypeScript.
+Built with TypeScript.
 
 **PitStop Garage MK.** The workshop platform for my own auto service, and the
 public site in front of it.
-Surfaces: Website, Workshop platform. Built with TypeScript.
+Built with TypeScript.
 
 ## Elsewhere
 
